@@ -5,32 +5,32 @@
 class Huba < Formula
   desc "Tool for managing claude code tasks across all your projects without leaving t"
   homepage "https://github.com/sergeyzwezdin/huba"
-  url "https://github.com/sergeyzwezdin/huba/archive/refs/tags/0.0.8.tar.gz"
-  version "0.0.8"
-  sha256 "16164dc6874fea9c143270f06dc762945bd3c8373a30ad0f06954052fd3f71d0"
+  url "https://github.com/sergeyzwezdin/huba/archive/refs/tags/0.0.12.tar.gz"
+  version "0.0.12"
+  sha256 "b2e675038629957d89b0ff739a52ab3126199d9ec296df779e8e1c19906a53bd"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/sergeyzwezdin/huba/releases/download/0.0.8/huba-0.0.8-darwin-amd64.tar.gz"
-      sha256 "c5d3043d1a05513beaf29ddfb12401119adad1b2c1c5e6ae1c6eba762023880a"
+      url "https://github.com/sergeyzwezdin/huba/releases/download/0.0.12/huba-0.0.12-darwin-amd64.tar.gz"
+      sha256 "fa2a8631485e09d1f567af573b6be2a84b4c5d4575509aa2994f04c0bab1d20c"
     end
 
     on_arm do
-      url "https://github.com/sergeyzwezdin/huba/releases/download/0.0.8/huba-0.0.8-darwin-arm64.tar.gz"
-      sha256 "1ea705b7a7783ec46135f08dff054e8c0a2317257954959d1b3b601cfbb03b99"
+      url "https://github.com/sergeyzwezdin/huba/releases/download/0.0.12/huba-0.0.12-darwin-arm64.tar.gz"
+      sha256 "62b090c97ca958a9938a58428ddd80d49256e1865f50bd22efe449eb1a17a57f"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/sergeyzwezdin/huba/releases/download/0.0.8/huba-0.0.8-linux-amd64.tar.gz"
-      sha256 "1e4c355b4226284278a8e65ad6475133501da92074cfe887e32f57a824c35cf9"
+      url "https://github.com/sergeyzwezdin/huba/releases/download/0.0.12/huba-0.0.12-linux-amd64.tar.gz"
+      sha256 "42080580c4345d01d2fc53ffbbe2d3ae17192b93e060a669c1069168e72e52b6"
     end
 
     on_arm do
-      url "https://github.com/sergeyzwezdin/huba/releases/download/0.0.8/huba-0.0.8-linux-arm64.tar.gz"
-      sha256 "ef6a393cc88c4448f7cd496d23b5d3855ab39611d3c3d99d0bb665b12805bbad"
+      url "https://github.com/sergeyzwezdin/huba/releases/download/0.0.12/huba-0.0.12-linux-arm64.tar.gz"
+      sha256 "324f242fe5db422cf2f977593b6c82822f043833de3a78a1266b4a04d4a80e43"
     end
   end
 
