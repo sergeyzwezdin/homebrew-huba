@@ -5,32 +5,32 @@
 class Huba < Formula
   desc "Tool for managing claude code tasks across all your projects without leaving t"
   homepage "https://github.com/sergeyzwezdin/huba"
-  url "https://github.com/sergeyzwezdin/huba/archive/refs/tags/0.0.7.tar.gz"
-  version "0.0.7"
-  sha256 "de8d7ba1955d34885b72a1627fb786a530895b1933372aece9d26e6e1ad721c1"
+  url "https://github.com/sergeyzwezdin/huba/archive/refs/tags/0.0.8.tar.gz"
+  version "0.0.8"
+  sha256 "16164dc6874fea9c143270f06dc762945bd3c8373a30ad0f06954052fd3f71d0"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/sergeyzwezdin/huba/releases/download/0.0.7/huba-0.0.7-darwin-amd64.tar.gz"
-      sha256 "e96b6fc1eab54eef02f71700c091a0cefab84d56152994088d0aa5fc8f0cf839"
+      url "https://github.com/sergeyzwezdin/huba/releases/download/0.0.8/huba-0.0.8-darwin-amd64.tar.gz"
+      sha256 "c5d3043d1a05513beaf29ddfb12401119adad1b2c1c5e6ae1c6eba762023880a"
     end
 
     on_arm do
-      url "https://github.com/sergeyzwezdin/huba/releases/download/0.0.7/huba-0.0.7-darwin-arm64.tar.gz"
-      sha256 "be91694a1b8b6f94f17661a37df9ea23f3b9991997ed289a055b1176fcbfd60c"
+      url "https://github.com/sergeyzwezdin/huba/releases/download/0.0.8/huba-0.0.8-darwin-arm64.tar.gz"
+      sha256 "1ea705b7a7783ec46135f08dff054e8c0a2317257954959d1b3b601cfbb03b99"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/sergeyzwezdin/huba/releases/download/0.0.7/huba-0.0.7-linux-amd64.tar.gz"
-      sha256 "98679ce3595897c76f28b814d9ad6f6fcecb4cb71b52ac7eb87e5484be2314fd"
+      url "https://github.com/sergeyzwezdin/huba/releases/download/0.0.8/huba-0.0.8-linux-amd64.tar.gz"
+      sha256 "1e4c355b4226284278a8e65ad6475133501da92074cfe887e32f57a824c35cf9"
     end
 
     on_arm do
-      url "https://github.com/sergeyzwezdin/huba/releases/download/0.0.7/huba-0.0.7-linux-arm64.tar.gz"
-      sha256 "ef9b196c2f418574f13701cad19351b0bae5910612827690b8d90b761700b8c7"
+      url "https://github.com/sergeyzwezdin/huba/releases/download/0.0.8/huba-0.0.8-linux-arm64.tar.gz"
+      sha256 "ef6a393cc88c4448f7cd496d23b5d3855ab39611d3c3d99d0bb665b12805bbad"
     end
   end
 
