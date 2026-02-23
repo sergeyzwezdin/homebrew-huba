@@ -5,31 +5,32 @@
 class Huba < Formula
   desc "Tool for managing claude code tasks across all your projects without leaving t"
   homepage "https://github.com/sergeyzwezdin/huba"
-  url "https://github.com/sergeyzwezdin/huba/archive/refs/tags/0.0.6.tar.gz"
-  sha256 "f897087129cacfa468f657723f1ff1113e4877981f6bd3be4049c046ee97c186"
+  url "https://github.com/sergeyzwezdin/huba/archive/refs/tags/0.0.7.tar.gz"
+  version "0.0.7"
+  sha256 "de8d7ba1955d34885b72a1627fb786a530895b1933372aece9d26e6e1ad721c1"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/sergeyzwezdin/huba/releases/download/0.0.6/huba-0.0.6-darwin-amd64.tar.gz"
-      sha256 "ebbf9b8ac1c18754c0b9e079a726e80961d39689807923f656fa9fa79796312b"
+      url "https://github.com/sergeyzwezdin/huba/releases/download/0.0.7/huba-0.0.7-darwin-amd64.tar.gz"
+      sha256 "e96b6fc1eab54eef02f71700c091a0cefab84d56152994088d0aa5fc8f0cf839"
     end
 
     on_arm do
-      url "https://github.com/sergeyzwezdin/huba/releases/download/0.0.6/huba-0.0.6-darwin-arm64.tar.gz"
-      sha256 "38031b35027917e957e561da199c0d9f72e4ab86abbabbdb53d667e113e9b71b"
+      url "https://github.com/sergeyzwezdin/huba/releases/download/0.0.7/huba-0.0.7-darwin-arm64.tar.gz"
+      sha256 "be91694a1b8b6f94f17661a37df9ea23f3b9991997ed289a055b1176fcbfd60c"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/sergeyzwezdin/huba/releases/download/0.0.6/huba-0.0.6-linux-amd64.tar.gz"
-      sha256 "1676424bd882d89d430c2f5fc307ba23e52ea98f1160b7753a4d0f765232a249"
+      url "https://github.com/sergeyzwezdin/huba/releases/download/0.0.7/huba-0.0.7-linux-amd64.tar.gz"
+      sha256 "98679ce3595897c76f28b814d9ad6f6fcecb4cb71b52ac7eb87e5484be2314fd"
     end
 
     on_arm do
-      url "https://github.com/sergeyzwezdin/huba/releases/download/0.0.6/huba-0.0.6-linux-arm64.tar.gz"
-      sha256 "116e47919e97860524efd04c54e9942ea93ca03e4c953ccb30f680f85c460be8"
+      url "https://github.com/sergeyzwezdin/huba/releases/download/0.0.7/huba-0.0.7-linux-arm64.tar.gz"
+      sha256 "ef9b196c2f418574f13701cad19351b0bae5910612827690b8d90b761700b8c7"
     end
   end
 
