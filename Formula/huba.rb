@@ -5,31 +5,31 @@
 class Huba < Formula
   desc "Tool for managing claude code tasks across all your projects without leaving t"
   homepage "https://github.com/sergeyzwezdin/huba"
-  url "https://github.com/sergeyzwezdin/huba/archive/refs/tags/0.0.5.tar.gz"
-  sha256 "b963b0c7c49c24534bf4e10a1929b8d2d2840d77a7a2b7190ee224789f21d78a"
+  url "https://github.com/sergeyzwezdin/huba/archive/refs/tags/0.0.6.tar.gz"
+  sha256 "f897087129cacfa468f657723f1ff1113e4877981f6bd3be4049c046ee97c186"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/sergeyzwezdin/huba/releases/download/0.0.5/huba-0.0.5-darwin-amd64.tar.gz"
-      sha256 "9eba027767cbf603fe451cf4cc15bd92af095dee07be6bf9e081f9d17752a98a"
+      url "https://github.com/sergeyzwezdin/huba/releases/download/0.0.6/huba-0.0.6-darwin-amd64.tar.gz"
+      sha256 "ebbf9b8ac1c18754c0b9e079a726e80961d39689807923f656fa9fa79796312b"
     end
 
     on_arm do
-      url "https://github.com/sergeyzwezdin/huba/releases/download/0.0.5/huba-0.0.5-darwin-arm64.tar.gz"
-      sha256 "037d9b7f10bc44a7abe0fcbab143592c48f158cc5b57c1fc8553b793c090cdb1"
+      url "https://github.com/sergeyzwezdin/huba/releases/download/0.0.6/huba-0.0.6-darwin-arm64.tar.gz"
+      sha256 "38031b35027917e957e561da199c0d9f72e4ab86abbabbdb53d667e113e9b71b"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/sergeyzwezdin/huba/releases/download/0.0.5/huba-0.0.5-linux-amd64.tar.gz"
-      sha256 "7d85e41803d0739a53ced80c5c86a39d9a472d9177f1161519c6e3a37a2e68d8"
+      url "https://github.com/sergeyzwezdin/huba/releases/download/0.0.6/huba-0.0.6-linux-amd64.tar.gz"
+      sha256 "1676424bd882d89d430c2f5fc307ba23e52ea98f1160b7753a4d0f765232a249"
     end
 
     on_arm do
-      url "https://github.com/sergeyzwezdin/huba/releases/download/0.0.5/huba-0.0.5-linux-arm64.tar.gz"
-      sha256 "eb4bc123145061177bf1e08f08216d8d56b3f7648e5297fb63b881703106ea22"
+      url "https://github.com/sergeyzwezdin/huba/releases/download/0.0.6/huba-0.0.6-linux-arm64.tar.gz"
+      sha256 "116e47919e97860524efd04c54e9942ea93ca03e4c953ccb30f680f85c460be8"
     end
   end
 
